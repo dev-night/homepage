@@ -1,23 +1,23 @@
-# homepage
+# /dev/night homepage
 
-This is the source of the new homepage
+This is the source of the new homepage.
 
-# Requirements
+## Requirements
 
-## Yarn
+### Yarn
 
 You need a working installation of yarn.
 Follow [this installation guide](https://yarnpkg.com/lang/en/docs/install).
 
-# Development
+## Development
 
 To run it locally just run `yarn dev`
 
-## Emojis
+### Emojis
 
 [Here](https://raw.githubusercontent.com/omnidan/node-emoji/master/lib/emoji.json) is a list of all emojis.
 
-# Thanks
+## Thanks
 
 - [yarn](https://yarnpkg.com/en/) as a great package manager
 - [Next.js](https://nextjs.org/) as a extensible framework

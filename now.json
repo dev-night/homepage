@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "dev-night_homepage",
+  "name": "dev_night-homepage",
   "regions": ["bru"],
   "builds": [{ "src": "next.config.js", "use": "@now/next" }]
 }
