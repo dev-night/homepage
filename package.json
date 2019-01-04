@@ -1,0 +1,27 @@
+{
+  "name": "dev-night_homepage",
+  "version": "0.0.1",
+  "description": "/dev/night homepage",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/dev-night/homepage.git",
+  "author": "Niklas Heer <niklas.heer@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-mdx": "^1.2.0",
+    "@zeit/next-stylus": "^1.0.1",
+    "mdx": "^0.3.1",
+    "next": "^7.0.2",
+    "next-compose-plugins": "^2.1.1",
+    "next-images": "^1.0.4",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "remark-emoji": "^2.0.2",
+    "stylus": "^0.54.5"
+  },
+  "devDependencies": {}
+}
