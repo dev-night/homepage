@@ -3,5 +3,5 @@
   "name": "dev_night-homepage",
   "regions": ["bru"],
   "alias": ["new.dev-night.io"],
-  "builds": [{ "src": "next.config.js", "use": "@now/next" }]
+  "builds": [{ "src": "next.config.js", "use": "@now/static-build" }]
 }
