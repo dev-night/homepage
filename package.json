@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "now-build": "next build && next export -o dist"
   },
   "dependencies": {
     "@zeit/next-mdx": "^1.2.0",
