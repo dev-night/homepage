@@ -1,6 +1,6 @@
 const withPlugins = require("next-compose-plugins");
 const emoji = require("remark-emoji");
-const withImages = require("next-images");
+const optimizedImages = require("next-optimized-images");
 const withStylus = require("@zeit/next-stylus");
 const withMDX = require("@zeit/next-mdx")({
   extension: /\.mdx?$/,
@@ -11,6 +11,6 @@ const withMDX = require("@zeit/next-mdx")({
 
 module.exports = withPlugins([
   [withStylus, {}],
-  [withImages, {}],
+  [optimizedImages, { optimizeImagesInDev: true }],
   [withMDX, { pageExtensions: ["js", "jsx", "md", "mdx"] }]
 ]);

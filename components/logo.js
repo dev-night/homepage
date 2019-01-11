@@ -1,8 +1,6 @@
-import logo from "../assets/img/dev_night.png";
-
 export default () => (
   <div className="logo">
-    <img src={logo} />
+    <img src={require("../assets/img/dev_night.png?resize&size=400")} />
 
     <style jsx>{`
       .logo {

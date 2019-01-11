@@ -19,7 +19,7 @@ To run it locally just run `yarn dev`
 
 ## Todo
 
-- [ ] Find a way to minify images so we don't waste bandwidth
+- [x] Find a way to minify images so we don't waste bandwidth
 - [ ] Find a way to highlight the current visited page in the nav bar
 - [ ] Generate the navbar instead of inserting it manually
 - [ ] Decide: Maybe use `mdx` for the blog and the normal sites could be normal `jsx`
