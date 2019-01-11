@@ -1,10 +1,10 @@
-import Meta from "../components/meta";
+import Header from "../components/header";
 import Nav from "../components/nav";
 import Footer from "../components/footer";
 
 export default ({ children }) => (
   <div className="hack">
-    <Meta />
+    <Header />
     <div className="container">
       <Nav />
       {children}

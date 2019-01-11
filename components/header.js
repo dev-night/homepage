@@ -28,18 +28,9 @@ export default () => (
       href={require("../assets/ico/safari-pinned-tab.svg")}
       color="#5bbad5"
     />
+
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
-    <link
-      rel="shortcut icon"
-      href={require("../assets/ico/favicon.ico")}
-      type="image/x-icon"
-    />
-    <link
-      rel="icon"
-      href={require("../assets/ico/favicon.ico")}
-      type="image/x-icon"
-    />
 
     <link
       href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,300i,600"
