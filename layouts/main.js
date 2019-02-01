@@ -3,7 +3,7 @@ import Nav from "../components/nav";
 import Footer from "../components/footer";
 
 export default ({ children }) => (
-  <div className="hack">
+  <div className="main">
     <Header />
     <div className="container">
       <Nav />

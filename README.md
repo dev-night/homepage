@@ -24,8 +24,8 @@ To run it locally just run `yarn dev`
 - [ ] Generate the navbar instead of inserting it manually
 - [ ] Decide: Maybe use `mdx` for the blog and the normal sites could be normal `jsx`
 - [x] Add favicon
-- [ ] Add FontAwesome
-- [ ] Load fonts locally
+- [x] Add FontAwesome
+- [x] Load fonts locally
 - [ ] Add connection to Firebase
 - [ ] Display the next meetup event
 - [ ] Add the live stream
