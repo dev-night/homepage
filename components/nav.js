@@ -12,6 +12,10 @@ export default () => (
       <a>About</a>
     </Link>
 
+    <Link href="/forever">
+      <a>Forever</a>
+    </Link>
+
     <style jsx global>{`
       .nav-bar {
         width: 100%;

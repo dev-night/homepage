@@ -1,25 +1,12 @@
+import React from "react";
+import { MDXProvider } from "@mdx-js/tag";
+import App, { Container } from "next/app";
 import Header from "../components/header";
 import Nav from "../components/nav";
 import Footer from "../components/footer";
-import App, { Container } from "next/app";
 import Link from "next/link";
 import NProgress from "nprogress";
 import Router from "next/router";
-
-// export default ({ children }) => (
-//   <div className="main">
-//     <Header />
-//     <div className="container">
-//       <Nav />
-//       {children}
-//       <Footer />
-//     </div>
-//   </div>
-// );
-
-const linkStyle = {
-  margin: "0 10px 0 0"
-};
 
 Router.events.on("routeChangeStart", url => {
   console.log(`Loading: ${url}`);
@@ -43,22 +30,13 @@ export default class MyApp extends App {
     const { Component, pageProps } = this.props;
     return (
       <Container>
-        <div style={{ marginBottom: 20 }}>
-          <Link href="/">
-            <a style={linkStyle}>Home</a>
-          </Link>
-          <Link href="/about">
-            <a style={linkStyle}>About</a>
-          </Link>
-          <Link href="/forever">
-            <a style={linkStyle}>Forever</a>
-          </Link>
-          <Link href="/non-existing">
-            <a style={linkStyle}>Non Existing Page</a>
-          </Link>
+        <div className="main" style={{ marginBottom: 20 }}>
+          <Header />
+          <div className="container">
+            <Nav />
+            <Component {...pageProps} />
+          </div>
         </div>
-
-        <Component {...pageProps} />
       </Container>
     );
   }

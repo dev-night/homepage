@@ -1,4 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaSlack } from "react-icons/fa";
 
 export default () => (
   <button
@@ -7,7 +7,7 @@ export default () => (
   >
     Join the community
     <span>
-      <FontAwesomeIcon icon={["fab", "slack"]} />
+      <FaSlack />
     </span>
     <style jsx>{`
       span {

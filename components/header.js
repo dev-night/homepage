@@ -2,17 +2,7 @@ import Head from "next/head";
 // import "../assets/stylus/main.styl";
 import "../assets/css/main.css";
 import "../assets/css/fonts.css";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { fab } from "@fortawesome/free-brands-svg-icons";
-
-// NOTE this example only shows how to use the solid free icons.
-import {
-  faCheckSquare,
-  faScrewdriver,
-  faUser,
-  faIgloo
-} from "@fortawesome/free-solid-svg-icons";
-library.add(fab, faCheckSquare, faScrewdriver, faUser, faIgloo);
+import "../assets/css/nprogress.css";
 
 export default () => (
   <Head>

@@ -13,10 +13,6 @@
     "now-build": "next build && next export -o dist"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.12",
-    "@fortawesome/free-brands-svg-icons": "^5.6.3",
-    "@fortawesome/free-solid-svg-icons": "^5.6.3",
-    "@fortawesome/react-fontawesome": "^0.1.4",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-mdx": "^1.2.0",
     "imagemin-pngquant": "^7.0.0",
@@ -26,8 +22,10 @@
     "next-compose-plugins": "^2.1.1",
     "next-fonts": "^0.16.0",
     "next-optimized-images": "^2.3.3",
+    "nprogress": "^0.2.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-icons": "^3.3.0",
     "remark-emoji": "^2.0.2",
     "responsive-loader": "^1.2.0",
     "sharp": "^0.21.1",
