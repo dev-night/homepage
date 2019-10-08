@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default () => (
   <button
-    onclick="location.href='https://slack.dev-night.io'"
+    onClick={ () => window.open('https://slack.dev-night.io', '_blank') }
     className="btn btn-primary"
   >
     Join the community
