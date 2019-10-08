@@ -11,7 +11,12 @@ Follow [this installation guide](https://yarnpkg.com/lang/en/docs/install).
 
 ## Development
 
-To run it locally just run `yarn dev`
+To run it locally just run `yarn dev`.
+
+## Contributing to the /dev/night `homepage`
+
+Contributing to the `homepage` is a piece of :cake:, read the [contributing guidelines](https://github.com/dev-night/homepage/blob/master/.github/CONTRIBUTING.md).
+You can discuss new features using the [issues section](https://github.com/dev-night/homepage/issues/new).
 
 ### Emojis
 
