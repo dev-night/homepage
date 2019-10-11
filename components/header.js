@@ -36,5 +36,10 @@ export default () => (
       href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,300i,600"
       rel="stylesheet"
     />
+    <script
+        type='text/javascript'
+        data-embed_id='ls_embed_1539691978'
+        src='https://livestream.com/assets/plugins/referrer_tracking.js'>
+    </script>
   </Head>
 );
