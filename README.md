@@ -33,7 +33,7 @@ You can discuss new features using the [issues section](https://github.com/dev-n
 - [x] Load fonts locally
 - [x] Add connection to Firebase (Thanks to @sohanpal)
 - [ ] Display the next meetup event
-- [ ] Add the live stream
+- [x] Add the live stream
 - [ ] Add photo gallery
 - [ ] Add past meetups and talk notes
 - [ ] Add a wiki with commonly used words
