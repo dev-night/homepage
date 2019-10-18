@@ -11,6 +11,9 @@ export default () => (
     <Link activeClassName="active" href="/about">
       <a>About</a>
     </Link>
+    <Link activeClassName="active" href="/events">
+      <a>Past Meetups</a>
+    </Link>
 
     <style jsx global>{`
       .nav-bar {
