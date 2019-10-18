@@ -25,7 +25,7 @@ You can discuss new features using the [issues section](https://github.com/dev-n
 ## Todo
 
 - [x] Find a way to minify images so we don't waste bandwidth
-- [ ] Find a way to highlight the current visited page in the nav bar
+- [x] Find a way to highlight the current visited page in the nav bar
 - [ ] Generate the navbar instead of inserting it manually
 - [ ] Decide: Maybe use `mdx` for the blog and the normal sites could be normal `jsx`
 - [x] Add favicon
