@@ -3,6 +3,7 @@ import Head from "next/head";
 import "../assets/css/main.css";
 import "../assets/css/fonts.css";
 import "react-image-gallery/styles/css/image-gallery.css";
+import 'react-accessible-accordion/dist/fancy-example.css';
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 
