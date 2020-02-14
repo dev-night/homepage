@@ -44,5 +44,12 @@ export default () => (
 
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
+
+
+    <script
+        type='text/javascript'
+        data-embed_id='ls_embed_1539691978'
+        src='https://livestream.com/assets/plugins/referrer_tracking.js'>
+    </script>
   </Head>
 );
