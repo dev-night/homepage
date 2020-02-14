@@ -1,14 +1,14 @@
-import Link from "next/link";
+import Link from '../lib/ActiveLink';
 
 export default () => (
   <div className="nav-bar">
-    <Link href="/">
+    <Link activeClassName="active" href="/">
       <a>Home</a>
     </Link>
-    <Link href="/talks">
+    <Link activeClassName="active" href="/talks">
       <a>Talks</a>
     </Link>
-    <Link href="/about">
+    <Link activeClassName="active" href="/about">
       <a>About</a>
     </Link>
 
@@ -23,6 +23,10 @@ export default () => (
       }
       .nav-bar a {
         margin-right: 1rem;
+      }
+
+      .active {
+        color: gold;
       }
     `}</style>
   </div>
