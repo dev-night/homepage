@@ -32,6 +32,8 @@ You can discuss new features using the [issues section](https://github.com/dev-n
 - [ ] Add FontAwesome
 - [ ] Load fonts locally
 - [x] Add connection to Firebase
+- [x] Add FontAwesome
+- [x] Load fonts locally
 - [ ] Display the next meetup event
 - [x] Add the live stream
 - [ ] Add photo gallery
