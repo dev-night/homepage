@@ -1,5 +1,18 @@
 import Head from "next/head";
-import "../assets/stylus/main.styl";
+// import "../assets/stylus/main.styl";
+import "../assets/css/main.css";
+import "../assets/css/fonts.css";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+
+// NOTE this example only shows how to use the solid free icons.
+import {
+  faCheckSquare,
+  faScrewdriver,
+  faUser,
+  faIgloo
+} from "@fortawesome/free-solid-svg-icons";
+library.add(fab, faCheckSquare, faScrewdriver, faUser, faIgloo);
 
 export default () => (
   <Head>
@@ -32,9 +45,11 @@ export default () => (
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
 
-    <link
-      href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,300i,600"
-      rel="stylesheet"
-    />
+
+    <script
+        type='text/javascript'
+        data-embed_id='ls_embed_1539691978'
+        src='https://livestream.com/assets/plugins/referrer_tracking.js'>
+    </script>
   </Head>
 );
