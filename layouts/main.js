@@ -9,7 +9,6 @@ export default ({ children }) => (
     <Header />
     <div className="container">
       <Nav />
-      <LiveStream />
       {children}
       <Footer />
     </div>
