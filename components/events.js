@@ -8,6 +8,7 @@ import {
     AccordionItemButton,
     AccordionItemPanel,
 } from 'react-accessible-accordion';
+
 export default class extends React.Component {
   constructor(props){
     super(props);
@@ -47,7 +48,7 @@ export default class extends React.Component {
   render() {
     const { error, isLoaded, events } = this.state;
      if (error) {
-       return <div>Error while fetching Meetup events: {error.message}</div>;
+       return <div>Error while fetching events: {error.message}</div>;
      } else if (!isLoaded) {
        return <div>Loading...</div>;
      } else if (Object.keys(events).length === 0) {
@@ -55,7 +56,6 @@ export default class extends React.Component {
      } else {
     return (
       <div>
-      <h3 className="title">{this.props.status} meetups</h3>
        <Accordion preExpanded={[0]}>
           { events.map(item => (
             <AccordionItem uuid={this.state.x++}> 
