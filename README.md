@@ -29,15 +29,12 @@ You can discuss new features using the [issues section](https://github.com/dev-n
 - [ ] Generate the navbar instead of inserting it manually
 - [ ] Decide: Maybe use `mdx` for the blog and the normal sites could be normal `jsx`
 - [x] Add favicon
-- [ ] Add FontAwesome
-- [ ] Load fonts locally
-- [x] Add connection to Firebase
 - [x] Add FontAwesome
 - [x] Load fonts locally
 - [x] Add connection to Firebase (Thanks to @sohanpal)
 - [ ] Display the next meetup event
 - [x] Add the live stream
-- [ ] Add photo gallery
+- [x] Add photo gallery (Thanks to @sohanpal)
 - [ ] Add past meetups and talk notes
 - [ ] Add a wiki with commonly used words
 - [ ] Make it awesome on the mobile phone
