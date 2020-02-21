@@ -14,6 +14,9 @@ export default () => (
     <Link activeClassName="active" href="/gallery">
       <a>Photo Gallery</a>
     </Link>
+    <Link activeClassName="active" href="/events">
+      <a>Past Meetups</a>
+    </Link>
 
     <style jsx global>{`
       .nav-bar {
