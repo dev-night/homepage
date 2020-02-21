@@ -11,6 +11,9 @@ export default () => (
     <Link activeClassName="active" href="/about">
       <a>About</a>
     </Link>
+    <Link activeClassName="active" href="/gallery">
+      <a>Photo Gallery</a>
+    </Link>
 
     <style jsx global>{`
       .nav-bar {

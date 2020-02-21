@@ -36,7 +36,7 @@ You can discuss new features using the [issues section](https://github.com/dev-n
 - [x] Add connection to Firebase (Thanks to @sohanpal)
 - [ ] Display the next meetup event
 - [x] Add the live stream
-- [ ] Add photo gallery
+- [x] Add photo gallery (Thanks to @sohanpal)
 - [ ] Add past meetups and talk notes
 - [ ] Add a wiki with commonly used words
 - [ ] Make it awesome on the mobile phone
